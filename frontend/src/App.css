@@ -1,0 +1,17 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat';
+}
+
+body{
+    width: 100%;
+    max-width: 1440px;
+    margin-left: 210px;
+  }
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+

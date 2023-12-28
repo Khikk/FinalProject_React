@@ -1,0 +1,30 @@
+.wrapper {
+    margin-top: 70px;
+    margin-bottom: 90px;
+    margin-left: 45px;
+    width: 1360px;
+    
+  }
+  
+  .navigate {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .title_categories {
+    font-size: 64px;
+  }
+  
+  .click_categories {
+    margin-right: 30px;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    
+  }
+
+  

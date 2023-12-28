@@ -1,0 +1,44 @@
+.footer {
+    max-width: 1360px;
+    margin-left: 45px;
+    display: grid;
+    gap: 32px;
+    grid-template-columns: 6fr 4fr;
+    
+  
+  }
+
+  .title_footer{
+    font-size: 64px;
+    font-weight: 700;
+    padding-bottom: 40px;
+    margin-left: 45px;
+    margin-top: 70px;
+  }
+
+  .navigation {
+    display: flex;
+    gap: 16px;
+    padding: 16px;
+    flex-direction: column;
+    border-radius: 12px;
+  }
+
+  .navigation h3 {
+    font-size: 40px;
+    padding-right: 100px;
+    font-weight: 600;
+
+  }
+  .navigation p {
+    font-size: 20px;
+    font-weight: 500;
+    color: rgba(139, 139, 139, 1);
+    ;
+ }
+  
+  .icons {
+    display: flex;
+    gap: 15px;
+    margin-left: 13px;
+  }

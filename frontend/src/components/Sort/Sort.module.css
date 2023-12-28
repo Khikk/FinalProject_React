@@ -1,0 +1,48 @@
+.wrapper {
+    width: 100%;
+    max-width: 850px;
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0;
+  }
+  
+  .form_min_max {
+    display: flex;
+    align-items: center; 
+    gap: 15px;
+  }
+  
+  .sort_container {
+    display: flex;
+    gap: 12px;
+    color: #282828;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    align-items: center;
+  }
+  
+  .price_input {
+    font-size: 16px;
+    padding: 8px 16px;
+    width: 112px;
+    border-radius: 6px;
+    border: 1px solid #DDD;
+  }
+  
+
+  
+
+  
+  .select_sort {
+    padding: 8px 16px;
+    border-radius: 6px;
+    border: 1px solid var(--grey-divider, #DDD);
+  }
+  

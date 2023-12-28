@@ -1,0 +1,151 @@
+.sales_main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 1440px;
+    padding: 20px;
+  }
+  .title_sales{
+    font-size: 70px;
+    margin-left: 40px;
+    margin-top: 40px;
+    padding-bottom: 0;
+  }
+  .navigate_sales {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+
+  .navigate_sales_btn{
+    margin-top: 43px;
+  }
+  .sales_grid_main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .sales_card_link {
+    text-decoration: none;
+    color: inherit;
+    position: relative;
+    width: 320px;
+    height: 420px;
+    margin: 10px;
+    overflow: hidden;
+  }
+
+  .sales_card_title{
+    font-size: 20px;
+    margin-left: 25px;
+    margin-top: 13px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
+  }
+  
+  .sales_card_main {
+    position: relative;
+    width: 320px;
+    height: 420px;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+  }
+  
+  
+  .sales_card_main:hover {
+    transform: scale(1.04);
+  }
+  
+  .sales_card_image {
+    width: 100%;
+    height: 60%;
+    object-fit: cover;
+  }
+  
+  .discount_tag {
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    background-color: rgba(51, 153, 51, 1);
+    ;
+    border-radius: 7px;
+    color: white;
+    padding: 5px 10px;
+    font-weight: bold;
+    z-index: 1;
+  }
+  
+  .overlay_main {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.4s;
+  }
+  
+  .addButton {
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 10px 20px;
+  }
+  
+
+
+
+.sales_card_price {
+    position: absolute;
+    bottom: 10px;
+    left: 23px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .discounted_price {
+    font-weight: bold;
+    font-size: 40px;
+    padding-top: 10px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+  
+  .original_price {
+    margin-left: 100px;
+    padding-bottom: 30px;
+    text-decoration: line-through;
+    font-size: 20px;
+    color:rgba(139, 139, 139, 1);
+    ;
+
+  }
+
+  .sales_card_main:hover .overlay_main {
+    opacity: 1;
+  }
+  
+
+  
+
+  

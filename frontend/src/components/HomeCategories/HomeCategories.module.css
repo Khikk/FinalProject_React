@@ -1,0 +1,46 @@
+.wrapper {
+    margin-top: 50px;
+    width: 1360px;
+    margin-left: 40px;
+  }
+  
+  .navigate {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .title_categories {
+    font-size: 64px;
+  }
+  
+  .click_categories {
+    margin-right: 10px;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    
+  }
+  
+  .categories_img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+  
+  .categories_img img {
+    width: 315px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 12px;
+  }
+  
+  .categories_img p {
+    margin-top: 10px;
+    font-size: 20px;
+  }
+  

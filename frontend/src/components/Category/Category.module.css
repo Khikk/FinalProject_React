@@ -1,0 +1,22 @@
+
+
+.category_image {
+    display: flex;
+    height: 350px;
+    width: 250px;
+    object-fit: cover;
+    border-radius: 12px;
+    cursor: pointer;
+  }
+  
+  .category_text {
+    display: flex;
+    font-size: 20px;
+    text-align: center;
+    color: #282828;
+    font-weight: 500;
+    margin-left: 80px;
+    margin-top: 15px;
+    line-height: 26px;
+    cursor: pointer;
+  }
